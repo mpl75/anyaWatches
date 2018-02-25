@@ -1,0 +1,61 @@
+<layout id="WatchFace">
+  <drawable id="bgTop" class="MyRectangle">
+    <param name="left">0</param>
+    <param name="top">-1</param>
+    <param name="width">218</param>
+    <param name="height">57</param>
+    <param name="lineWidth">1</param>
+  </drawable>
+  <drawable id="bgMain" class="MyRectangle">
+    <param name="left">0</param>
+    <param name="top">56</param>
+    <param name="width">218</param>
+    <param name="height">106</param>
+    <param name="lineWidth">0</param>
+  </drawable>
+  <drawable id="bgBottom" class="MyRectangle">
+    <param name="left">0</param>
+    <param name="top">160</param>
+    <param name="width">218</param>
+    <param name="height">59</param>
+    <param name="lineWidth">1</param>
+  </drawable>  
+  <label id="Battery" x="97" y="5" font="@Fonts.icons" color="Gfx.COLOR_WHITE" text="C" />
+  <label id="TimeLabel" x="center" y="77" font="@Fonts.time" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+  <label id="AMPM" x="0" y="101" font="@Fonts.texts" color="Gfx.COLOR_WHITE" />
+  <label id="DateLabel0" x="34" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel1" x="59" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel2" x="84" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel3" x="109" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel4" x="134" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel5" x="159" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DateLabel6" x="184" y="57" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_DK_RED" />
+  <label id="SunRiseLeg" x="38" y="138" font="@Fonts.icons" color="0xFFAA00" text="A" justification="Gfx.TEXT_JUSTIFY_RIGHT"/>
+  <label id="SunRise" x="38" y="138" font="@Fonts.texts" color="Gfx.COLOR_LT_GRAY" />
+  <label id="SunSetLeg" x="102" y="138" font="@Fonts.icons" color="0xFFAA00" text="B" justification="Gfx.TEXT_JUSTIFY_RIGHT"/>
+  <label id="SunSet" x="102" y="138" font="@Fonts.texts" color="Gfx.COLOR_LT_GRAY" />
+  <label id="AltitudeLeg" x="161" y="140" font="@Fonts.icons" color="Gfx.COLOR_WHITE" text="D" justification="Gfx.TEXT_JUSTIFY_RIGHT"/>
+  <label id="Altitude" x="161" y="138" font="@Fonts.texts" color="Gfx.COLOR_LT_GRAY" />
+  <label id="DistanceLeg" x="26" y="166" font="@Fonts.icons" color="Gfx.COLOR_LT_GRAY" text="E" />
+  <label id="Distance" x="86" y="160" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+  <label id="HRLeg" x="92" y="200" font="@Fonts.icons" color="Gfx.COLOR_LT_GRAY" text="I" />
+  <label id="HeartRate" x="128" y="194" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+  <label id="HRG" x="90" y="166" font="@Fonts.icons" color="Gfx.COLOR_DK_GRAY" text="JKKKKKKKKKKKKKKKKKKKKK" />
+  <label id="StepsLeg" x="137" y="164" font="@Fonts.icons" color="Gfx.COLOR_LT_GRAY" text="F" />
+  <label id="Steps" x="151" y="160" font="@Fonts.texts" color="Gfx.COLOR_WHITE" />
+  <label id="FloorsLeg" x="137" y="182" font="@Fonts.icons" color="Gfx.COLOR_LT_GRAY" text="G" />
+  <label id="Floors" x="151" y="175" font="@Fonts.texts" color="Gfx.COLOR_WHITE" />
+  <label id="CaloriesLeg" x="44" y="180" font="@Fonts.icons" color="Gfx.COLOR_LT_GRAY" text="H" />
+  <label id="Calories" x="86" y="175" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+  <label id="Weather0t" x="50" y="33" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" text="--" />
+  <label id="Weather1t" x="90" y="33" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" text="--" />
+  <label id="Weather2t" x="130" y="33" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" text="--" />
+  <label id="Weather3t" x="170" y="33" font="@Fonts.texts" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_LT_GRAY" text="--" />
+  <label id="Weather0i" x="50" y="18" font="@Fonts.icons" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Weather1i" x="90" y="18" font="@Fonts.icons" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Weather2i" x="130" y="18" font="@Fonts.icons" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Weather3i" x="170" y="18" font="@Fonts.icons" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Connection" x="83" y="3" font="@Fonts.icons" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Notifications" x="126" y="4" font="@Fonts.icons" color="Gfx.COLOR_WHITE" text=" " />
+  <label id="Alarms" x="142" y="4" font="@Fonts.icons" color="Gfx.COLOR_WHITE" text=" " />
+</layout>

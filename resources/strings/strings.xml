@@ -1,0 +1,13 @@
+<strings>
+  <string id="AppName">Anya Alpha</string>
+  <string id="Theme">Theme</string>
+  <string id="ThemePrompt">Select your color theme</string>
+  <string id="DarkBlue">Dark blue</string>
+  <string id="Pink">Pink</string>
+  <string id="LightBlue">Light blue</string>
+  <string id="LightGreen">Light green</string>
+  <string id="LightPink">Light pink</string>
+  <string id="DarkRed">Dark red</string>
+  <string id="DarkGreen">Dark green</string>
+  <string id="Orange">Orange</string>
+</strings>
